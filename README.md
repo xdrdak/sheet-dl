@@ -1,4 +1,4 @@
-# getCSVFromGoogleDocs
+# sheet-dl
 
 Fetch sheet data from google as a good old `.csv` file
 
@@ -25,3 +25,11 @@ The sheetId would be the element right after `/d/`, so in the previous scenario,
 ## Obtaining the sheetName
 
 Simply check the selected tab at the bottom of Google Sheets and use the text AS IS.
+
+## Starting Locally
+
+```
+deno run --watch --allow-net --allow-read server.ts
+```
+
+And then visit `localhost:8000`.
